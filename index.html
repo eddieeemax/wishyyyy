@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>for my lovely ain ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#f7dce5;--rose:#c56c86;--wine:#754052;--cream:#fff9f7;--ink:#5d3945}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(145deg,#fff8f7,#fce8ef 55%,#fffaf6);color:var(--ink);font-family:Poppins,Arial,sans-serif}
+.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.heart{position:absolute;bottom:-40px;color:#df8da5;opacity:.35;animation:float 13s linear infinite}
+.heart:nth-child(1){left:8%;font-size:20px;animation-delay:0s}.heart:nth-child(2){left:27%;font-size:28px;animation-delay:4s}.heart:nth-child(3){left:62%;font-size:18px;animation-delay:2s}.heart:nth-child(4){left:83%;font-size:25px;animation-delay:7s}
+@keyframes float{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}
+header,main,footer{position:relative;z-index:1}
+header{text-align:center;padding:24px 14px 8px}
+.brand{font-family:"Dancing Script",cursive;font-size:clamp(2.2rem,7vw,4.2rem);font-weight:700;margin:14px 0 8px;color:var(--wine)}
+.subtitle{font-size:.9rem;letter-spacing:.08em;color:#9b6576}
+nav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:20px auto 12px}
+nav button,.button{border:0;border-radius:999px;background:#fff;color:var(--wine);padding:11px 17px;font:500 .85rem Poppins;cursor:pointer;box-shadow:0 5px 18px #b77b8b20;text-decoration:none;display:inline-block}
+nav button.active,.button.primary{background:var(--rose);color:white}
+main{max-width:900px;margin:auto;padding:12px 18px 50px}
+.page{display:none;animation:fade .5s ease}.page.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.card{background:#ffffffbd;border:1px solid #fff;box-shadow:0 14px 45px #9c5b7114;border-radius:26px;padding:clamp(20px,5vw,42px);margin:12px auto 22px;text-align:center}
+h2{font-family:"Dancing Script",cursive;font-size:clamp(2rem,5vw,3.1rem);color:var(--wine);margin:5px 0 18px}
+p{line-height:1.95;font-size:.96rem;font-weight:300}
+.intro{max-width:650px;margin:0 auto 24px}.wish-text{text-transform:lowercase}
+.polaroid{background:#fff;padding:12px 12px 36px;max-width:320px;margin:24px auto;box-shadow:0 10px 28px #7d4a5b25;transform:rotate(-1.5deg);border-radius:3px}
+.polaroid img{display:block;width:100%;height:320px;object-fit:cover}
+.caption{font-family:"Dancing Script",cursive;font-size:1.5rem;margin-top:12px;color:var(--wine)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:14px;margin-top:25px}
+.gallery figure{background:white;padding:8px 8px 20px;margin:0;box-shadow:0 8px 20px #7d4a5b18;transform:rotate(var(--tilt));border-radius:3px}
+.gallery img{width:100%;height:190px;object-fit:cover;display:block}
+.gallery figcaption{font-family:"Dancing Script",cursive;font-size:1.25rem;padding-top:8px}
+.small{font-size:.78rem;color:#9d7480}
+.music-box{max-width:520px;margin:22px auto}
+iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:16px;box-shadow:0 8px 25px #7d4a5b20}
+footer{text-align:center;padding:0 18px 30px;font-family:"Dancing Script",cursive;font-size:1.3rem;color:#a16b7c}
+@media(max-width:480px){nav button{padding:10px 12px;font-size:.78rem}.polaroid img{height:270px}.gallery img{height:160px}}
+</style>
+</head>
+<body>
+<div class="hearts" aria-hidden="true"><span class="heart">♡</span><span class="heart">♡</span><span class="heart">♡</span><span class="heart">♡</span></div>
+<header>
+  <div class="subtitle">A Little Website Made With Love</div>
+  <h1 class="brand">For My Lovely Ain ♡</h1>
+  <div class="subtitle">For Your Special Day, My Love</div>
+  <nav aria-label="website pages">
+    <button class="active" data-page="birthday">Birthday Wish</button>
+    <button data-page="love">A Little Love Letter</button>
+    <button data-page="memories">Our Memories</button>
+    <button data-page="song">Our Song ♫</button>
+  </nav>
+</header>
+<main>
+<section class="page active" id="birthday">
+  <div class="card">
+    <h2>happy birthday, my love ♡</h2>
+    <p class="intro wish-text">happy birthday to my favourite person. i hope today makes you smile in a hundred little ways, and i hope this new chapter of your life brings you the kind of happiness that stays. you deserve so many good things, ain, not just today but every day.</p>
+    <div class="polaroid"><img src="photo1.jpeg" onerror="this.onerror=null;this.src='photo1.jpg';" alt="a favourite photo"><div class="caption">my favourite girl ♡</div></div>
+    <p class="wish-text">i wish i could be there to see your smile today and remind you how loved you are. even when life gets tiring or things don't go the way you planned, i hope you never forget how special you are to me. please keep being you, keep chasing the things that make your heart happy, and don't be too hard on yourself when things get difficult.</p>
+    <p class="wish-text">i can't promise that every day will be perfect, but i can promise that i'll keep cheering for you, listening to you, and wishing the best for you. i hope this year gives you more reasons to laugh, more peaceful days, more little adventures, and dreams that slowly turn into real things. happy birthday, sayang. i love you more than i always know how to explain. ♡</p>
+  </div>
+</section>
+<section class="page" id="love">
+  <div class="card">
+    <h2>Thank You For Coming Into My Life ♡</h2>
+    <p>Sometimes i wonder how my life would feel if i had never met you, and honestly, i'm just glad that i did. thank you for coming into my life and becoming someone i can care about this much. you make ordinary days feel different just by being part of them.</p>
+    <p>I love the little things about you, even the things you probably don't notice about yourself. if you could see yourself through my eyes for even a minute, maybe you'd understand why you mean so much to me. you don't have to do anything special to deserve my love. being you is already enough.</p>
+    <p>Thank you for the memories we've made, for the laughs, for the moments we get to share, and for giving me someone i want to make more memories with. i know i'm not perfect and i won't always find the right words, but my feelings for you are real. i want to keep learning you, supporting you, and choosing you through the good days and the hard ones too.</p>
+    <p>If there's one thing i hope you always remember, it's this: you matter to me, so much. i'm grateful for you, proud of you, and happy that i get to call you mine. i love you, ain. always a little more than yesterday. ♡</p>
+  </div>
+</section>
+<section class="page" id="memories">
+  <div class="card">
+    <h2>Little Pieces Of Us ♡</h2>
+    <p>some favourite moments with my favourite person. here's to the memories we have and all the ones we haven't made yet.</p>
+    <div class="gallery">
+      <figure style="--tilt:-1deg"><img src="photo1.jpeg" onerror="this.onerror=null;this.src='photo1.jpg';" alt="memory 1"><figcaption>you & me ♡</figcaption></figure>
+      <figure style="--tilt:1.5deg"><img src="photo2.jpeg" onerror="this.onerror=null;this.src='photo2.jpg';" alt="memory 2"><figcaption>my favourite</figcaption></figure>
+      <figure style="--tilt:-1.5deg"><img src="photo3.jpeg" onerror="this.onerror=null;this.src='photo3.jpg';" alt="memory 3"><figcaption>sweet moments</figcaption></figure>
+      <figure style="--tilt:1deg"><img src="photo4.jpeg" onerror="this.onerror=null;this.src='photo4.jpg';" alt="memory 4"><figcaption>just us</figcaption></figure>
+      <figure style="--tilt:-1deg"><img src="photo5.jpeg" onerror="this.onerror=null;this.src='photo5.jpg';" alt="memory 5"><figcaption>keepsake ♡</figcaption></figure>
+      <figure style="--tilt:1.5deg"><img src="photo6.jpeg" onerror="this.onerror=null;this.src='photo6.jpg';" alt="memory 6"><figcaption>more to come</figcaption></figure>
+    </div>
+  </div>
+</section>
+<section class="page" id="song">
+  <div class="card">
+    <h2>A Song For You ♫</h2>
+    <p>press play, take a little moment for yourself, and know that this one is here for you. ♡</p>
+    <div class="music-box">
+      <iframe src="https://www.youtube-nocookie.com/embed/vjC0OlRZfxQ" title="a song for ain on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <a class="button primary" href="https://youtu.be/vjC0OlRZfxQ?si=LXGxnAV7IdZtwzCZ" target="_blank" rel="noopener">Open Song On YouTube ♡</a>
+    <p class="small">if the player doesn't load, use the button above.</p>
+  </div>
+</section>
+</main>
+<footer>Made For Ain, With Love ♡</footer>
+<script>
+const buttons = document.querySelectorAll('nav button');
+const pages = document.querySelectorAll('.page');
+buttons.forEach(button => button.addEventListener('click', () => {
+  buttons.forEach(item => item.classList.toggle('active', item === button));
+  pages.forEach(page => page.classList.toggle('active', page.id === button.dataset.page));
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}));
+</script>
+</body>
+</html>
